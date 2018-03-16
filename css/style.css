@@ -14,7 +14,6 @@ body {
 
 
 /* -------- SECTION HOME -------- */
-
 .home {
     width: 30vw;
     position: absolute;
@@ -81,7 +80,6 @@ a.contact-icon  {
 a.contact-icon:hover { color: #ffffff; }
 
 /*!* -------- LOGO -------- *!*/
-
 .logo {
     width: 5vw;
     height: 5vw;
@@ -94,7 +92,6 @@ a.contact-icon:hover { color: #ffffff; }
 }
 
 /*!* -------- NAVIGATION -------- *!*/
-
 nav {
     margin: 3em auto;
     text-align: center;
