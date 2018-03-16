@@ -16,6 +16,7 @@ body {
 /* -------- SECTION HOME -------- */
 
 .home {
+    width: 30vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,6 +27,9 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
+    border-top: solid 1px #ffffff;
+    border-bottom: solid 1px #ffffff;
+    padding-bottom: 0.9em;
 }
 
 .home-inner h1 {
@@ -68,6 +72,7 @@ a.contact-icon:hover {
 /*!* -------- NAVIGATION -------- *!*/
 nav {
     margin: 3em auto;
+    text-align: center;
 }
 
 nav ul {
@@ -101,7 +106,10 @@ nav ul li a {
     color: #ffffff;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a:active,
+nav ul li a:visited,
+nav ul li a:focus {
     text-decoration: none;
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.1);
