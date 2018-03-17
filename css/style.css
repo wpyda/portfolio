@@ -163,3 +163,11 @@ footer {
 }
 
 .slider { animation: slider 1.4s; }
+
+@keyframes text-appears {
+    0%, 30% { opacity: 0; }
+    80% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.text-appears { animation: text-appears 1.4s }
