@@ -171,3 +171,10 @@ footer {
 }
 
 .text-appears { animation: text-appears 1.4s }
+
+@keyframes icons-appear {
+    0%, 50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.icons-appear { animation: icons-appear 2s }
