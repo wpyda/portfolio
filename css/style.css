@@ -15,7 +15,7 @@ body {
 
 /* -------- SECTION HOME -------- */
 .home {
-    width: 30vw;
+    width: 35vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -148,3 +148,18 @@ footer {
     text-transform: uppercase;
 
 }
+
+/* -------- ANIMATIONS -------- */
+@keyframes slider {
+    0%, 20% {
+        padding: 0;
+        height: 0;
+    }
+
+    100% {
+        padding: 0.5em 0 1.40em 0;
+        height: 222.97px;
+    }
+}
+
+.slider { animation: slider 1.4s; }
