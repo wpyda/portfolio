@@ -138,11 +138,9 @@ nav ul li a:focus {
 
 /* -------- ARTICLES -------- */
 main article {
-    /*transform: translateY(0.25rem);*/
-    /*transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;*/
+    width: 50vw;
+    max-width: 100%;
     padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
-    width: 40vw;
-    height: 30rem;
     background: rgba(27, 31, 34, 0.85);
     border-radius: 4px;
     position: relative;
