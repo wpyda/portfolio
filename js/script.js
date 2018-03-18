@@ -2,9 +2,14 @@ const about = document.getElementById('li-about');
 const work = document.getElementById('li-work');
 const contact = document.getElementById('li-contact');
 
-about.addEventListener('click', () => { document.querySelector('main article#about').style.display = 'block'; });
-work.addEventListener('click', () => { document.querySelector('main article#work').style.display = 'block'; });
-contact.addEventListener('click', () => { document.querySelector('main article#contact').style.display = 'block'; });
+const openSlide = (id) => {
+    document.querySelector('main article#' + id).style.display = 'block';
+    document.querySelector('header').style.display = 'none';
+};
+
+about.addEventListener('click', () => openSlide('about'));
+work.addEventListener('click', () => openSlide('work'));
+contact.addEventListener('click', () => openSlide('contact'));
 
 // // "x" button
 // const close = document.querySelector('.close');
@@ -13,6 +18,3 @@ contact.addEventListener('click', () => { document.querySelector('main article#c
 //
 // console.log('bar1', close);
 // close.appendChild(bar1);
-
-const close = document.querySelector('.close');
-close.addEventListener('click', () => { document.querySelector('main article#about').style.display = 'none'; });
