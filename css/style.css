@@ -151,19 +151,26 @@ main article {
 }
 
 .close {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2em;
+    height: 2em;
     position: absolute;
     top: 0.75rem;
     right: 0.75rem;
     border-radius: 100%;
     transition: all 0.2s ease-in-out;
+    text-align: center;
 }
 
-.close:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-}
+.close:hover { background-color: rgba(255, 255, 255, 0.5); }
 
+.fa-times {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-42%, -53.5%);
+    font-size: 1.25em;
+    color: #ffffff;
+}
 
 /* -------- FOOTER -------- */
 footer {
