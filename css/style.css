@@ -5,6 +5,7 @@ body {
     padding: 0;
     height: 100vh;
     font-family: 'Source Sans Pro', sans-serif;
+    color: #ffffff;
     background: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/banner1.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +80,7 @@ a.contact-icon  {
 
 a.contact-icon:hover { color: #ffffff; }
 
-/*!* -------- LOGO -------- *!*/
+/* -------- LOGO -------- */
 .logo {
     width: 5vw;
     height: 5vw;
@@ -91,7 +92,7 @@ a.contact-icon:hover { color: #ffffff; }
     transform: translate(-50%, -100%);
 }
 
-/*!* -------- NAVIGATION -------- *!*/
+/* -------- NAVIGATION -------- */
 nav {
     margin: 3em auto;
     text-align: center;
@@ -134,6 +135,23 @@ nav ul li a:focus {
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* -------- ARTICLES -------- */
+main article {
+    /*transform: translateY(0.25rem);*/
+    /*transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;*/
+    padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+    width: 40vw;
+    height: 30rem;
+    background: rgba(27, 31, 34, 0.85);
+    border-radius: 4px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: none;
+}
+
 
 /* -------- FOOTER -------- */
 footer {
