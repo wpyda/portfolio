@@ -226,3 +226,25 @@ footer {
 @media only screen and (max-width: 768px) {
     .home { width: 55vw; }
 }
+
+@media only screen and (max-width: 480px) {
+    .home { width: 85vw; }
+
+    .home-inner h1::after { width: 3em; }
+
+    .logo {
+        width: 13vw;
+        height: 13vw;
+    }
+
+    nav { width: 40vw; }
+
+    nav ul { display: block; }
+
+    nav ul li {
+        border-left: 0;
+        border-top: solid 1px #ffffff;
+    }
+
+    nav ul li:first-child { border-top: 0; }
+}
