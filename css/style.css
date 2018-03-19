@@ -62,6 +62,7 @@ body {
 .home-inner p {
     font-size: 1.1em;
     font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .icons {
@@ -122,7 +123,7 @@ nav ul li a {
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     font-size: 1em;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 nav ul li a:hover,
@@ -130,7 +131,7 @@ nav ul li a:active,
 nav ul li a:visited,
 nav ul li a:focus {
     text-decoration: none;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.7);
     background-color: rgba(255, 255, 255, 0.1);
 }
 
