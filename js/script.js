@@ -18,3 +18,14 @@ contact.addEventListener('click', () => openSlide('contact'));
 //
 // console.log('bar1', close);
 // close.appendChild(bar1);
+
+// TODO check these functions, it works only with 'about'
+const closeSlide = (id) => {
+    document.querySelector('main article#' + id).style.display = 'none';
+    document.querySelector('header').style.display = 'block';
+};
+
+const close = document.querySelector('.close');
+close.addEventListener('click', () => closeSlide('about'));
+close.addEventListener('click', () => closeSlide('work'));
+close.addEventListener('click', () => closeSlide('contact'));
