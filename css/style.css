@@ -193,7 +193,7 @@ footer {
 
     100% {
         padding: 0.5em 0 1.40em 0;
-        height: 222.97px;
+        height: 15.75em;
     }
 }
 
@@ -247,4 +247,27 @@ footer {
     }
 
     nav ul li:first-child { border-top: 0; }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        font-size: 1.2em;
+    }
+
+    .logo {
+        width: 18vw;
+        height: 18vw;
+    }
+
+    @keyframes slider {
+        0%, 20% {
+            padding: 0;
+            height: 0;
+        }
+
+        100% {
+            padding: 0.5em 0 1.40em 0;
+            height: 19.25em;
+        }
+    }
 }
