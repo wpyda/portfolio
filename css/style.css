@@ -190,7 +190,7 @@ main article h2:after {
 }
 
 /* -------- contact -------- */
-#contact { display: block; }
+/*#contact { display: block; }*/
 
 label {
     color: rgba(255, 255, 255, 0.7);
@@ -251,22 +251,36 @@ ul.actions li {
     padding: 0 1rem 0 0;
 }
 
+.submit-button,
+.reset-button {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding: 1em 1em;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
 .submit-button {
     background-color: #ffffff;
     color: #1b1f22;
     font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    padding: 1em 1em;
-    border-radius: 4px;
-    border: solid 1px rgba(255, 255, 255, 0.5);
-    transition: all 0.2s ease-in-out;
 }
 
 .submit-button:hover {
     background: transparent;
     color: rgba(255, 255, 255, 0.7);
+    border-bottom-right-radius: 25px;
 }
+
+.reset-button {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.reset-button:hover { border-bottom-right-radius: 25px; }
 
 /* -------- FOOTER -------- */
 footer {
