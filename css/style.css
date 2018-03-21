@@ -149,6 +149,22 @@ main article {
     display: none;
 }
 
+main article h2 {
+    text-transform: uppercase;
+    margin-bottom: 1.3em;
+    position: relative;
+}
+
+main article h2:after {
+    content: '';
+    width: 4.4em;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 1.4em;
+    left: 0;
+}
+
 .close {
     width: 2em;
     height: 2em;
