@@ -4,6 +4,7 @@ const contact = document.getElementById('li-contact');
 
 const openSlide = (id) => {
     const select = document.querySelector('main article#' + id);
+    select.classList.remove('section-disappears');
     select.classList.add('section-appears');
     select.style.display = 'block';
     document.querySelector('header').style.display = 'none';
@@ -14,7 +15,10 @@ work.addEventListener('click', () => openSlide('work'));
 contact.addEventListener('click', () => openSlide('contact'));
 
 const closeSlide = (id) => {
-    document.querySelector('main article#' + id).style.display = 'none';
+    const select = document.querySelector('main article#' + id);
+    select.classList.remove('section-appears');
+    select.classList.add('section-disappears');
+    setTimeout(() => select.style.display = 'none', 800);
     document.querySelector('header').style.display = 'block';
 };
 
