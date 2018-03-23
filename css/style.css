@@ -137,15 +137,15 @@ nav ul li a:focus {
 
 /* -------- ARTICLES -------- */
 main article {
-    width: 50vw;
+    width: 55vw;
     max-width: 100%;
-    padding: 2.5rem ;
+    padding: 2.5em ;
     background: rgba(27, 31, 34, 0.85);
     border-radius: 4px;
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 38%);
     display: none;
 }
 
@@ -190,7 +190,7 @@ main article h2:after {
 }
 
 /* -------- contact -------- */
-/*#contact { display: block; }*/
+#contact { display: block; }
 
 label {
     color: rgba(255, 255, 255, 0.7);
