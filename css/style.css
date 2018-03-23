@@ -190,7 +190,7 @@ main article h2:after {
 }
 
 /* -------- contact -------- */
-#contact { display: block; }
+/*#contact { display: block; }*/
 
 label {
     color: rgba(255, 255, 255, 0.7);
@@ -308,7 +308,6 @@ footer {
         height: 15.75em;
     }
 }
-
 .slider { animation: slider 1.4s; }
 
 @keyframes text-appears {
@@ -316,15 +315,19 @@ footer {
     80% { opacity: 0.5; }
     100% { opacity: 1; }
 }
-
 .text-appears { animation: text-appears 1.4s }
 
 @keyframes icons-appear {
     0%, 50% { opacity: 0; }
     100% { opacity: 1; }
 }
-
 .icons-appear { animation: icons-appear 2s }
+
+@keyframes section-appears {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.section-appears { animation: section-appears 0.8s }
 
 /* -------- MEDIA QUERIES -------- */
 @media only screen and (max-width: 1280px) {

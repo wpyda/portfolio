@@ -3,7 +3,9 @@ const work = document.getElementById('li-work');
 const contact = document.getElementById('li-contact');
 
 const openSlide = (id) => {
-    document.querySelector('main article#' + id).style.display = 'block';
+    const select = document.querySelector('main article#' + id);
+    select.classList.add('section-appears');
+    select.style.display = 'block';
     document.querySelector('header').style.display = 'none';
 };
 
