@@ -199,6 +199,10 @@ main article#contact h2:after { width: 5em; }
 
 .work-main, .single-project { padding: 0; }
 
+.work-main {
+    height: 20vh;
+}
+
 .text {
     padding: 0 0 0 1em;
 }
