@@ -191,10 +191,30 @@ main article#contact h2:after { width: 5em; }
     font-size: 1.25em;
     color: #ffffff;
 }
+/* -------- work -------- */
+#work {
+    display: block;
+    height: 90vh;}
+
+.work-main, .single-project { padding: 0; }
+
+.text {
+    padding: 0 0 0 1em;
+}
+
+.technologies {
+    width: 100%;
+    height: 4vw;
+    background: blue;
+}
+
+.img-example {
+    width: 100%;
+    height: 10vw;
+    background: red;
+}
 
 /* -------- contact -------- */
-/*#contact { display: block; }*/
-
 label {
     color: rgba(255, 255, 255, 0.7);
     display: block;
