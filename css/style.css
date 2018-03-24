@@ -193,8 +193,9 @@ main article#contact h2:after { width: 5em; }
 }
 /* -------- work -------- */
 #work {
-    display: block;
-    height: 90vh;}
+    /*display: block;*/
+    height: 90vh;
+}
 
 .work-main, .single-project { padding: 0; }
 
