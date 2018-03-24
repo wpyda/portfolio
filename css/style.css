@@ -159,13 +159,16 @@ main article h2 {
 
 main article h2:after {
     content: '';
-    width: 5em;
     height: 1px;
     background-color: #ffffff;
     position: absolute;
     top: 1.4em;
     left: 0;
 }
+
+main article#about h2:after { width: 3.7em; }
+main article#work h2:after { width: 3.2em; }
+main article#contact h2:after { width: 5em; }
 
 .close {
     width: 2em;
