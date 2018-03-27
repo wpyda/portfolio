@@ -351,14 +351,14 @@ footer {
 .icons-appear { animation: icons-appear 2s }
 
 @keyframes section-appears {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% { opacity: 0; display: none;}
+    100% { opacity: 1; display: block;}
 }
 .section-appears { animation: section-appears 0.8s }
 
 @keyframes section-disappears {
-    0% { opacity: 1; }
-    100% { opacity: 0; }
+    0% { opacity: 1; display: block;}
+    100% { opacity: 0; display: none;}
 }
 .section-disappears { animation: section-disappears 0.8s }
 
