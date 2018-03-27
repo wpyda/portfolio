@@ -6,13 +6,13 @@ const openSlide = (id) => {
     const select = document.querySelector('main article#' + id);
     const back = document.querySelector('header');
 
-    select.classList.remove('section-disappears');
-    select.classList.add('section-appears');
+    select.classList.toggle('section-disappears');
+    select.classList.toggle('section-appears');
     select.style.display = 'block';
 
-    back.classList.remove('section-appears');
-    back.classList.add('section-disappears');
-    setTimeout(() => back.style.display = 'none', 800);
+    back.classList.toggle('section-appears');
+    back.classList.toggle('section-disappears');
+    // setTimeout(() => back.style.display = 'none', 800);
 };
 
 about.addEventListener('click', () => openSlide('about'));
@@ -23,12 +23,12 @@ const closeSlide = (id) => {
     const select = document.querySelector('main article#' + id);
     const back = document.querySelector('header');
 
-    select.classList.remove('section-appears');
-    select.classList.add('section-disappears');
-    setTimeout(() => select.style.display = 'none', 800);
+    select.classList.toggle('section-appears');
+    select.classList.toggle('section-disappears');
+    // setTimeout(() => select.style.display = 'none', 800);
 
-    back.classList.remove('section-disappears');
-    back.classList.add('section-appears');
+    back.classList.toggle('section-disappears');
+    back.classList.toggle('section-appears');
     back.style.display = 'block';
 };
 
