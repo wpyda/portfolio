@@ -342,25 +342,31 @@ footer {
     80% { opacity: 0.5; }
     100% { opacity: 1; }
 }
-.text-appears { animation: text-appears 1.4s }
+.text-appears { animation: text-appears 1.4s; }
 
 @keyframes icons-appear {
     0%, 50% { opacity: 0; }
     100% { opacity: 1; }
 }
-.icons-appear { animation: icons-appear 2s }
+.icons-appear { animation: icons-appear 1.4s; }
 
 @keyframes section-appears {
     0% { opacity: 0; }
-    100% { opacity: 1; }
 }
-.section-appears { animation: section-appears 0.8s }
+.section-appears {
+    display: block;
+    opacity: 1;
+    animation: section-appears 0.8s both;
+}
 
 @keyframes section-disappears {
     0% { opacity: 1; }
-    100% { opacity: 0; }
 }
-.section-disappears { animation: section-disappears 0.8s }
+.section-disappears {
+    display: none;
+    opacity: 0;
+    animation: section-disappears 0.8s both;
+}
 
 /* -------- MEDIA QUERIES -------- */
 @media only screen and (max-width: 1280px) {

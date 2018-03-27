@@ -8,11 +8,13 @@ const openSlide = (id) => {
 
     select.classList.remove('section-disappears');
     select.classList.add('section-appears');
-    select.style.display = 'block';
+    // select.style.display = 'block';
 
     back.classList.remove('section-appears');
     back.classList.add('section-disappears');
-    setTimeout(() => back.style.display = 'none', 800);
+
+    // if (back.style.display !== 'none') { setTimeout(() => back.style.display = 'none', 800); }
+    // setTimeout(() => back.style.display = 'none', 800);
 };
 
 about.addEventListener('click', () => openSlide('about'));
@@ -25,11 +27,13 @@ const closeSlide = (id) => {
 
     select.classList.remove('section-appears');
     select.classList.add('section-disappears');
-    setTimeout(() => select.style.display = 'none', 800);
+
+    // if (select.style.display !== 'none') { setTimeout(() => select.style.display = 'none', 800); }
+    // setTimeout(() => select.style.display = 'none', 800);
 
     back.classList.remove('section-disappears');
     back.classList.add('section-appears');
-    back.style.display = 'block';
+    // back.style.display = 'block';
 };
 
 const closeList = document.querySelectorAll('.close');
