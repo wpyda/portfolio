@@ -190,33 +190,6 @@ main article#contact h2:after { width: 5em; }
     font-size: 1.25em;
     color: #ffffff;
 }
-/* -------- work -------- */
-#work {
-    /*display: block;*/
-    height: 90vh;
-}
-
-.work-main, .single-project { padding: 0; }
-
-.work-main {
-    height: 20vh;
-}
-
-.text {
-    padding: 0 0 0 1em;
-}
-
-.technologies {
-    width: 100%;
-    height: 4vw;
-    background: blue;
-}
-
-.img-example {
-    width: 100%;
-    height: 10vw;
-    background: red;
-}
 
 /* -------- contact -------- */
 label {
@@ -306,6 +279,49 @@ ul.actions li {
 
 .reset-button:hover {
     background: rgba(255, 255, 255, 0.075);
+}
+
+/* -------- work -------- */
+#work {
+    display: block;
+    height: 90vh;
+}
+
+.work-main, .project-img { padding: 0; }
+
+.work-main {
+    height: 20vh;
+}
+
+.technologies {
+    width: 100%;
+}
+
+.js-icon {
+    font-size: 4em;
+    color: #F7DF1E;
+    /*float: left;*/
+    /*margin: 0 0.24em -0.24em 0;*/
+}
+
+.project-text {
+    padding: 0 0 0 1em;
+}
+
+.project-text p {
+    font-size: 1.25em;
+}
+
+.img-example {
+    width: 100%;
+    height: 10vw;
+    background: red;
+}
+
+.live-btn {
+    clear: both;
+    display: block;
+    padding: 0.5em;
 }
 
 /* -------- FOOTER -------- */
