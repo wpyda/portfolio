@@ -65,21 +65,22 @@ body {
     color: rgba(255, 255, 255, 0.7);
 }
 
+a .contact-icon  {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 3.5em;
+}
+
 .icons {
     text-align: center;
     margin: 1em auto;
 }
 
-a.contact-icon  {
-    color: rgba(255, 255, 255, 0.5);
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    font-size: 3.5em;
-    padding: 0 0.15em;
+.icons a { padding: 0 0.5em; }
 
-}
-
-a.contact-icon:hover { color: #ffffff; }
+.icons a:hover { text-decoration: none; }
+.icons a:hover .contact-icon { color: #ffffff; }
 
 /* -------- LOGO -------- */
 .logo {
@@ -176,12 +177,10 @@ main article#contact h2:after { width: 5em; }
     position: absolute;
     top: 0.75rem;
     right: 0.75rem;
-    border-radius: 100%;
     transition: all 0.2s ease-in-out;
-    text-align: center;
 }
 
-.close:hover { background-color: rgba(255, 255, 255, 0.5); }
+.close:hover { color: rgba(255, 255, 255, 0.5); }
 
 .fa-times {
     position: absolute;
